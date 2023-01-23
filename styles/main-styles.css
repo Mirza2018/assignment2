@@ -1,0 +1,310 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-head {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head1 {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.head1>h3 {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+
+}
+
+.head2 {
+    display: flex;
+    align-items: center;
+}
+
+.head2>a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+
+}
+
+.main-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 .container2 {
+    width: 40%;
+}
+
+.container1>p {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 40px;
+    width: 20%;
+
+}
+
+.fa-arrow-right {
+    color: white !important;
+}
+
+.container2>img {
+
+    width: 440px;
+    height: 414px;
+    background-image: url('/images/Circle\ design.svg');
+
+
+}
+
+.logo-main {
+    padding: 100px 0 100px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logos {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos>div>img {
+    width: 70%;
+}
+
+.t1 {
+    padding: 0 0 4% 45%;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.items {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.single-item {
+    width: 329px;
+    height: 550px;
+
+    padding: 17px 15px 17px 14px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+
+}
+
+section>div>h3 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+section>div>h5 {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+section>div>p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    width: 70%;
+}
+
+.fa-star-half-stroke {
+    color: #FB8200;
+}
+
+.fa-star {
+    color: #FB8200;
+}
+
+.last-item {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-item>img {
+    width: 404px;
+
+}
+
+.t2>a {
+    text-decoration: none;
+    color: #E02C6D;
+    margin-left: 90%;
+}
+
+.fa-arrow-right-long {
+    color: #E02C6D;
+}
+
+.last-bus {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-bus>h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.last-bus>p {
+    color: #D9DBE1;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.last-logo {
+    display: flex;
+}
+
+.last-logo>p {
+    margin-right: 16px;
+}
+
+
+/*media quary*/
+
+@media only screen and (max-width: 688px) {
+
+
+    .main-head {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head2 {
+        visibility: hidden;
+    }
+
+    .main-container {
+        margin-left: 10%;
+        margin-right: 10%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .t1 {
+        padding: 0 0 4% 25%;
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .items {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 2%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+
+    }
+
+    .t2>a {
+        text-decoration: none;
+        color: #E02C6D;
+        margin-left: 70%;
+    }
+
+    .color-alpha {
+        color: #E02C6D;
+    }
+
+    .last-item {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav>div>a {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width:689px) and (max-width: 992px) {
+
+
+
+    .main-head {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .t1 {
+        padding: 0 0 4% 35%;
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .items {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+    }
+
+    .main-container {
+        margin-left: 10%;
+        margin-right: 10%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .t2>a {
+        text-decoration: none;
+        color: #E02C6D;
+        margin-left: 80%;
+    }
+}
